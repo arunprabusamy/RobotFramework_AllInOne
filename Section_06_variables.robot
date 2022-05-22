@@ -18,7 +18,7 @@ second testcase
 
 third testcase
     log    ${usr2}
-
+    Log To Console    message
 
 
 
