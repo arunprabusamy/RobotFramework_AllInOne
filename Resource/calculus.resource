@@ -13,7 +13,7 @@ Subtract_Values
     [Return]    ${addedValue}
 
 Multiply_Values
-    Subtract_Values
     [Arguments]    ${val1}=0    ${val2}=0
     ${addedValue}=    Evaluate    ${val1}*${val2}
+    Log To Console    ${addedValue}
     [Return]    ${addedValue}
