@@ -130,4 +130,5 @@ dmypy.json
 
 
 #  RF - Log  Files
-.html
+*.html
+*.xml
