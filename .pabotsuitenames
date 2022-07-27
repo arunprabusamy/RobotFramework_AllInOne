@@ -2,8 +2,11 @@ datasources:546d7bb6eb79f60c222c27a3770a5ff3937538ca
 commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
 suitesfrom:no-suites-from-option
 file:da9fda7689cacd3c94568b88902016eed26588d7
+{
 --test Section 09 Executions.Sample TestCase 01
---test Section 09 Executions.Sample TestCase 02
 --test Section 09 Executions.Sample TestCase 03
-#WAIT
+}
+{
+--test Section 09 Executions.Sample TestCase 02
 --test Section 09 Executions.Sample TestCase 04
+}
