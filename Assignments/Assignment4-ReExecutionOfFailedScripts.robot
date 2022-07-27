@@ -1,3 +1,7 @@
+*** Variables ***
+${var}    True
+
+
 *** Test Cases ***
 Test01
     Log    Test01
@@ -9,7 +13,7 @@ Test02
 
 
 Test03
-    Log    Test03
+    Log    Test02
     Fail
 
 
